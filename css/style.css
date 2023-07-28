@@ -85,12 +85,17 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #cee1ff;
 }
 header{
-margin: 0 auto;
   position: relative;
   z-index: -99;
   width: 100%;
   overflow: hidden;
   height: 1080px;
+}
+header video{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
 }
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
